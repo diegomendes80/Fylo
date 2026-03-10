@@ -1,0 +1,9 @@
+@use '../../abstract/var';
+
+p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: var.$white;
+    opacity: 0.8;
+}
