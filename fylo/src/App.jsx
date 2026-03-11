@@ -5,6 +5,8 @@ import { Header } from './components/Header';
 import { Banner } from './components/Banner';
 import { AdvantageSection } from './components/AdvantageSection';
 import { WorkSection } from './components/WorkSection';
+import {CommentSection} from './components/CommentSection';
+import { Footer } from './components/Footer';
 
 function App() {
  
@@ -19,6 +21,10 @@ function App() {
         <AdvantageSection/>
         
         <WorkSection/>
+
+        <CommentSection/>
+
+        <Footer/>
 
     </main>
      
