@@ -2,10 +2,14 @@ import './index.scss';
 import { Image } from '../Image';
 import { NavLink } from '../NavLink';
 import { Paragraph } from '../Paragraph';
+import { AcessSection } from '../AcessSection';
 
 export function Footer(){
     return(
         <section className="footer">
+            
+            <AcessSection/>
+
             <div className="footer__present">
                 <Image src="logo.svg"></Image>
 

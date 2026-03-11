@@ -2,7 +2,7 @@
 
 .commentSection{
     background-color: var.$navy-900;
-    padding: 5rem 0;
+    padding: 5rem 0 20rem 0;
     
     .commentSection__cards{
         display: flex;
@@ -18,7 +18,7 @@
 @media(max-width:1200px){
     .commentSection{
 
-        padding: 3rem 0;
+        padding: 3rem 0 20rem 0;
 
         .commentSection__cards{
             flex-direction:column;

@@ -1,0 +1,81 @@
+@use '../../abstract/var';
+
+.acessSection{
+    
+    background-color: var.$navy-850;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    padding: 1rem 3rem;
+    text-align: center;
+
+    .title{
+        font-family: "open sans", sans-serif;
+        color: var.$white;
+        font-size: 2rem;
+        margin: 1rem 0;
+
+    }
+
+    p{
+        opacity: 1;
+        color: var.$white;
+        
+    }
+
+    .action{
+        margin: 1.5rem auto;
+        width: 90%;
+        display: flex;
+        justify-content:center;
+        gap:1rem;
+
+        input{
+            flex:1;
+            border-radius: 1.5rem;
+            border:none;
+            padding:1rem;
+            color:var.$navy-850;
+        }
+
+        input::placeholder{
+            font-family: "open sans", sans-serif;
+            // padding: 1rem;
+        }
+    }
+    
+}
+
+@media (max-width: 1200px){
+
+  .acessSection{
+    width: 80%;
+    padding: 2rem 1.5rem;
+
+    .title{
+      font-size: 1.4rem;
+    }
+
+    p{
+      font-size: .9rem;
+      line-height: 1.5;
+    }
+
+    .action{
+      flex-direction: column;
+      width: 100%;
+
+    //  
+
+      button{
+        width: 100%;
+      }
+    }
+  }
+
+}
+
+
