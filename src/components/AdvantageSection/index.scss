@@ -1,0 +1,25 @@
+@use '../../abstract/var';
+
+.advantageSection{
+    background-color: var.$navy-900;
+    padding: 3rem 0;
+    .cards{
+        
+        // background-color: blue;
+        width: 60%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 4rem;
+    }
+}
+
+@media(max-width: 1200px){
+
+    .advantageSection{
+        .cards{
+            width: 80%;
+            grid-template-columns: 1fr;
+        }
+    }
+}
