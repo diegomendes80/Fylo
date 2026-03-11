@@ -63,3 +63,14 @@
         }
     }
 }
+
+@media(max-width:1200px){
+    .workSection{
+        flex-direction: column;
+        gap: 2rem;
+
+        .work__img, .work__content{
+            width: 70%;
+        }
+    }
+}
