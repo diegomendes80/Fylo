@@ -41,7 +41,7 @@ export function AdvantageSection() {
             image={advantage.image}
           />
           )
-      })
+        })
 
       }
       </div>

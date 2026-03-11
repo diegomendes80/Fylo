@@ -1,0 +1,65 @@
+@use '../../abstract/var';
+
+.workSection{
+    background-color: var.$navy-900;
+    padding: 3rem 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+
+
+    .work__img{
+        width: 30%;
+
+        img{
+            width: 100%;
+        }
+    }
+
+
+    .work__content{
+        width: 30%;
+
+        h2{
+            font-family: "Open Sans", sans-serif;
+            font-size: 40px;
+            font-weight: 600;
+            color: var.$white;
+
+            margin: 1rem 0;
+        }
+
+        .content__link{
+            width: fit-content;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            gap: .5rem;
+            margin: 2rem 0;
+            padding-bottom: 5px;
+            border-bottom: 1px solid var.$teal-200;
+
+            a{
+                color: var.$teal-200;
+                
+            }
+        }
+
+        .content__link:hover{
+            cursor: pointer;
+            border-bottom: 1px solid var.$white;
+            
+            a{
+                color: var.$white;
+
+            }
+
+            img{
+                filter: invert(100%) sepia(100%) grayscale(100%) brightness(200%);
+            }
+
+        }
+    }
+}
